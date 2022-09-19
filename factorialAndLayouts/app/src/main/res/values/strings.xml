@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">laba1app</string>
+    <string name="text">Введите число: </string>
+    <string name="textForButton">Нажми меня</string>
+</resources>
