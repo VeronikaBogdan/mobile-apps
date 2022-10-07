@@ -81,20 +81,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setExpectedResult() {
-        btnEqual.setOnClickListener {
-            try {
-                val expectedExpression = ExpressionBuilder(expression.text.toString()).build()
-                val expectedResult = expectedExpression.evaluate()
-                val longResult = expectedResult.toLong()
-                if (expectedResult == longResult.toDouble()) {
-                    result.text = longResult.toString()
-                } else {
-                    result.text = expectedResult.toString()
-                }
-
-            } catch (e: Exception) {
-            }
-        }
+//        btnEqual.setOnClickListener {
+//            try {
+//                val expectedExpression = ExpressionBuilder(expression.text.toString()).build()
+//                val expectedResult = expectedExpression.evaluate()
+//                val longResult = expectedResult.toLong()
+//                if (expectedResult == longResult.toDouble()) {
+//                    result.text = longResult.toString()
+//                } else {
+//                    result.text = expectedResult.toString()
+//                }
+//
+//            } catch (e: Exception) {
+//            }
+//        }
     }
 
 //    private fun setDelete() {
