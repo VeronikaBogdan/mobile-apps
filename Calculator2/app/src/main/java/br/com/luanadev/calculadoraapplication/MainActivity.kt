@@ -1,15 +1,25 @@
 package br.com.luanadev.calculadoraapplication
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+//import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.grid_layout.*
+//import kotlinx.android.synthetic.main.grid_layout_landscape.*
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+//        setContentView(R.layout.activity_main)
+
+        var orientation = getResources().getConfiguration().orientation;
+        if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            setContentView(R.layout.grid_layout_landscape)
+        } else {
+            setContentView(R.layout.grid_layout)
+        }
         init()
 
     }

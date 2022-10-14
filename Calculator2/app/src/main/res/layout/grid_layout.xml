@@ -17,10 +17,9 @@
         android:text="0"
         android:textAlignment="textEnd"
         android:textColor="@color/white"
-        android:textSize="39sp"
+        android:textSize="35sp"
         tools:ignore="RtlCompat" />
     <TextView
-
         android:id="@+id/result"
         android:layout_columnSpan="4"
         android:layout_gravity="fill"
@@ -28,48 +27,59 @@
         android:text="0"
         android:textAlignment="textEnd"
         android:textColor="@color/white"
-        android:textSize="75sp"
+        android:textSize="60sp"
         tools:ignore="RtlCompat" />
     <Button
         android:id="@+id/clean"
         android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AC"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textColor="@color/black"
         android:backgroundTint="@color/light_gray"
-         />
+        />
 
-<!--    <Button-->
-<!--        android:id="@+id/btn_plus_minus"-->
-<!--        android:layout_gravity="fill"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:backgroundTint="@color/light_gray"-->
-<!--        android:text="+/-"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="30sp" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_plus_minus"-->
+    <!--        android:layout_gravity="fill"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:backgroundTint="@color/light_gray"-->
+    <!--        android:text="+/-"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp" />-->
 
-<!--    <Button-->
-<!--        android:id="@+id/btn_percent"-->
-<!--        android:layout_gravity="fill"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:backgroundTint="@color/light_gray"-->
-<!--        android:text="%"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="30sp" />-->
-
-    <ImageView
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_percent"-->
+    <!--        android:layout_gravity="fill"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:backgroundTint="@color/light_gray"-->
+    <!--        android:text="%"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp" />-->
+    <Button
         android:id="@+id/backspace"
-        android:layout_columnSpan="2"
-        android:layout_gravity="fill"
+        android:layout_gravity="fill_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="center"
-        android:src="@drawable/backspace"
-        android:background="@color/light_gray"/>
+        android:layout_columnSpan="2"
+        android:text="⌫"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        />
+    <!--    <ImageView-->
+    <!--        android:id="@+id/backspace"-->
+    <!--        android:layout_columnSpan="2"-->
+    <!--        android:layout_gravity="fill"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/light_gray"-->
+    <!--        android:scaleType="center"-->
+    <!--        android:src="@drawable/backspace" />-->
 
     <Button
         android:id="@+id/division"
@@ -79,7 +89,7 @@
         android:backgroundTint="@color/orange"
         android:text="/"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_seven"
@@ -89,7 +99,7 @@
         android:backgroundTint="@color/gray"
         android:text="7"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -100,7 +110,7 @@
         android:backgroundTint="@color/gray"
         android:text="8"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_nine"
@@ -110,7 +120,7 @@
         android:backgroundTint="@color/gray"
         android:text="9"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/multiplication"
@@ -120,7 +130,7 @@
         android:backgroundTint="@color/orange"
         android:text="*"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_four"
@@ -130,7 +140,7 @@
         android:backgroundTint="@color/gray"
         android:text="4"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -141,7 +151,7 @@
         android:backgroundTint="@color/gray"
         android:text="5"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_six"
@@ -151,7 +161,7 @@
         android:backgroundTint="@color/gray"
         android:text="6"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/subtraction"
@@ -161,7 +171,7 @@
         android:backgroundTint="@color/orange"
         android:text="-"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_one"
@@ -171,7 +181,7 @@
         android:backgroundTint="@color/gray"
         android:text="1"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -182,7 +192,7 @@
         android:backgroundTint="@color/gray"
         android:text="2"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_three"
@@ -192,7 +202,7 @@
         android:backgroundTint="@color/gray"
         android:text="3"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/add_up"
@@ -202,7 +212,7 @@
         android:backgroundTint="@color/orange"
         android:text="+"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/number_zero"
@@ -213,7 +223,7 @@
         android:backgroundTint="@color/gray"
         android:text="0"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -224,7 +234,7 @@
         android:backgroundTint="@color/gray"
         android:text="."
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -235,20 +245,20 @@
         android:backgroundTint="@color/orange"
         android:text="="
         android:textColor="@color/black"
-        android:textSize="30sp" />
-<!--    <Button-->
-<!--        android:layout_rowSpan="3"-->
-<!--        android:text="++++++" />-->
-<!--    <Button-->
-<!--        android:layout_columnSpan="2"-->
-<!--        android:text="0" />-->
-<!--    <Button android:text="00" />-->
+        android:textSize="25sp" />
+    <!--    <Button-->
+    <!--        android:layout_rowSpan="3"-->
+    <!--        android:text="++++++" />-->
+    <!--    <Button-->
+    <!--        android:layout_columnSpan="2"-->
+    <!--        android:text="0" />-->
+    <!--    <Button android:text="00" />-->
 
-<!--    <Button-->
-<!--        android:layout_row="3"-->
-<!--        android:layout_column="1"-->
-<!--        android:layout_columnSpan="3"-->
-<!--        android:text="=" />-->
+    <!--    <Button-->
+    <!--        android:layout_row="3"-->
+    <!--        android:layout_column="1"-->
+    <!--        android:layout_columnSpan="3"-->
+    <!--        android:text="=" />-->
 
 
 </GridLayout>
