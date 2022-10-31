@@ -2,7 +2,7 @@
 //  File.swift
 //  eshe raz (iOS)
 //
-//  Created by Student on 23.05.22.
+//  Created by Вероника Богдан on 23.05.22.
 //
 
 import SwiftUI

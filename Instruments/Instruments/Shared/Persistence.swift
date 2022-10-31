@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  Shared
 //
-//  Created by  Влада Травкина on 25.05.22.
+//  Created by Вероника Богдан on 25.05.22.
 //
 
 import CoreData
